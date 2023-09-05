@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./MV5BM2IxYTU5MDUtM2E2Ny00YWJlLThiNGUtMWE3NTgzMDUxYWM0XkEyXkFqcGdeQXVyMTYwNTQ3NTg5\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top:32px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 16px;
+    font-family:'Inter', sans-serif;
+    font-family:'Montserrat', sans-serif;;
+}
+
+header{
+    height:50px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 32px;
+}
+header a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+footer{
+    background-color: aquamarine;
+    height: 50px;
+}
