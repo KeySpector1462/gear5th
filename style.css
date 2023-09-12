@@ -11,7 +11,7 @@ a{
 
 body{
     height: 100vh;
-    background-image: url(./MV5BM2IxYTU5MDUtM2E2Ny00YWJlLThiNGUtMWE3NTgzMDUxYWM0XkEyXkFqcGdeQXVyMTYwNTQ3NTg5\ 1.png);
+    background-image: url(./img/MV5BM2IxYTU5MDUtM2E2Ny00YWJlLThiNGUtMWE3NTgzMDUxYWM0XkEyXkFqcGdeQXVyMTYwNTQ3NTg5\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -32,15 +32,53 @@ header{
     gap: 32px;
 }
 header a{
-    color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 main{
-    background-color: blue;
-    flex-grow: 1;
+    flex-grow: 9;
+    display: flex;
+}
+
+.filme-container{
+    flex-grow: 9;
+    display: flex;
+    flex-direction: column;
+}
+.descricao{
+    color: #fff;
+    flex-grow: 67;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+}
+.trailer{
+    flex-grow: 19;
+    height:69px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 32px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.social-container i:hover{
+    color: #f03fd8;
 }
 footer{
-    background-color: aquamarine;
-    height: 50px;
+    height: 42px;
+    color: #fff;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
