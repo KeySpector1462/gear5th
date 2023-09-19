@@ -82,3 +82,92 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* TABLET */
+@media (max-width:768px){
+    body{
+        padding: 20px 3px 4px 0px;
+        background-image: url(./img/nika.png);
+    }
+    .social-container{
+        display: none;
+    }
+
+    .filme-container{
+        align-items: center;
+    }  
+
+    .descricao{
+        padding: 60px;
+        justify-content: flex-start;
+        flex-grow: 32px;
+    }
+
+    
+    .descricao p{
+        text-align: center;
+    }
+    .trailer{
+        width: 500px;
+        height:30px;
+    }
+    footer{
+        display: none;
+    }
+}
+
+/*MOBILE*/
+@media (max-width:480px){
+    body{
+        background-image: url(./img/deus-do-sol.png);
+    }
+    header{
+        justify-content: space-between;
+        padding: 0px 24px 0 24px;
+        align-items: center;
+    }
+    header a{
+        border-bottom: none;
+        height: 48px;
+    }
+    header a:not(.logo)
+
+
+    header i.fa-solid{
+        display: block;
+        color:#D040FF;
+        font-size: 32px;
+    }
+    header a:not(.one){
+        display: none;
+    }
+    .descricao{
+        padding: 0;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .descricao img{
+        width: 95vw;
+    }
+    .descricao a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        width: 200px;
+        height: 50px;
+        background-color: #D040FF;
+        border: 4px solid #22fffe;
+        color: #fff;
+        font-size: 1.3rem;
+        border-radius: 50px;
+    }
+    .descricao p{
+    display: none;
+    }
+    .trailer{
+        display: none;
+    }
+}
