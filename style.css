@@ -89,9 +89,7 @@ footer{
         padding: 20px 3px 4px 0px;
         background-image: url(./img/nika.png);
     }
-    .social-container{
-        display: none;
-    }
+}
 
     .filme-container{
         align-items: center;
@@ -114,7 +112,6 @@ footer{
     footer{
         display: none;
     }
-}
 
 /*MOBILE*/
 @media (max-width:480px){
@@ -123,46 +120,22 @@ footer{
     }
     header{
         justify-content: space-between;
-        padding: 0px 24px 0 24px;
+        padding: 7px 5px 0 24px;
+        height: 100px;
         align-items: center;
     }
     header a{
-        border-bottom: none;
-        height: 48px;
-    }
-    header a:not(.logo)
+        background-color: transparent;
 
-
-    header i.fa-solid{
-        display: block;
-        color:#D040FF;
-        font-size: 32px;
     }
-    header a:not(.one){
-        display: none;
+    .trailer{
+        height: auto;
     }
     .descricao{
         padding: 0;
         justify-content: flex-end;
         align-items: center;
         height: 100%;
-        padding-bottom: 30px;
-    }
-    .descricao img{
-        width: 95vw;
-    }
-    .descricao a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        outline: none;
-        width: 200px;
-        height: 50px;
-        background-color: #D040FF;
-        border: 4px solid #22fffe;
-        color: #fff;
-        font-size: 1.3rem;
-        border-radius: 50px;
     }
     .descricao p{
     display: none;
